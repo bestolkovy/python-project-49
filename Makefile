@@ -5,7 +5,7 @@ brain-games:
 	poetry run brain-games
 
 brain-even:
-	poetry run brain_even
+	poetry run brain-even
 
 bpp:
 	poetry build
