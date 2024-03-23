@@ -4,6 +4,9 @@ install:
 brain-games:
 	poetry run brain-games
 
+brain-even:
+	poetry run brain_even
+
 bpp:
 	poetry build
 	poetry publish --dry-run
@@ -20,6 +23,9 @@ package-install:
 
 lint:
 	poetry run flake8 brain_games
+
+virt:
+	source .venv/bin/activate
 
 
 
