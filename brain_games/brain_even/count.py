@@ -18,5 +18,5 @@ def count():
         if k is False:
             print(f"Let's try again, {name}")
             break
-    if i == 2:
+    if i == 2 and k is True:
         print(f'Congratulations, {name}!')
