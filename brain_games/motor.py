@@ -1,5 +1,6 @@
 # движок для всех игр
-from brain_games.cli import welcome_user, answer
+from brain_games.cli import welcome_user
+from brain_games.answer import answer
 
 
 def skeleton(game):
