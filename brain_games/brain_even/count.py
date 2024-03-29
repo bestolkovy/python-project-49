@@ -10,7 +10,6 @@ brain_games.scripts.brain_games.main()
 name = brain_games.cli.welcome_user()
 
 
-# Функция подсчета правильных ответов.
 def count():
     print('Answer "yes" if the number is even, otherwise answer "no".')
     for i in range(3):
