@@ -1,9 +1,11 @@
 # движок для всех игр
 from brain_games.cli import welcome_user
 from brain_games.answer import answer
+from brain_games.scripts.brain_games import main
 
 
 def skeleton(game):
+    main()
     name = welcome_user()
     print(game.MANUAL)
     count = 0
