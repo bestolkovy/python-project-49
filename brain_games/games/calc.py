@@ -1,4 +1,4 @@
-# Логика для игры even
+# Логика для игры calc
 from random import randint, choice
 import operator
 
