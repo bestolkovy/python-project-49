@@ -6,7 +6,7 @@ MANUAL = "Find the greatest common divisor of given numbers."
 
 def meat():
     a = randint(1, 100)
-    b = randint(2, 1979)
+    b = randint(1, 100)
     argument = f'{a} {b}'
     if a > b:
         first_num = a
