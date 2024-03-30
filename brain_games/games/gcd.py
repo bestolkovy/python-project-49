@@ -11,12 +11,11 @@ def meat():
     if a > b:
         first_num = a
         second_num = b
-        
     elif a < b:
         first_num = b
         second_num = a
     else:
-        return str.join(a, b), a
+        return argument, a
     while first_num != second_num:
         current_num = first_num - second_num
         if second_num > current_num:
