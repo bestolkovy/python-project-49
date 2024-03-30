@@ -4,7 +4,7 @@
 ### Project instalation:
 [![asciicast](https://asciinema.org/a/JXqHCP7t8QrZkESRRIWxP7ldF.svg)](https://asciinema.org/a/JXqHCP7t8QrZkESRRIWxP7ldF)
 ### Brain-Even game demo:
-[![asciicast](https://asciinema.org/a/P5JFXshlFMpArz2eSQHSJ7LEl.svg)](https://asciinema.org/a/P5JFXshlFMpArz2eSQHSJ7LEl)
+[![asciicast](https://asciinema.org/a/7GBhYIiOl8mufPBba2pA32y7M.svg)](https://asciinema.org/a/7GBhYIiOl8mufPBba2pA32y7M)
 ### Brain-Calc game demo:
 [![asciicast](https://asciinema.org/a/VXxMO4vOL7lmrc1bM7psGI7zl.svg)](https://asciinema.org/a/VXxMO4vOL7lmrc1bM7psGI7zl)
 ### Brain-GCD game demo:
