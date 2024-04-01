@@ -11,3 +11,5 @@
 [![asciicast](https://asciinema.org/a/jesxisSJd8TLorkyRKmjgd4g5.svg)](https://asciinema.org/a/jesxisSJd8TLorkyRKmjgd4g5)
 ### Brain-Progression game demo:
 [![asciicast](https://asciinema.org/a/323DieUWHXpmptCLWCSSVJnJw.svg)](https://asciinema.org/a/323DieUWHXpmptCLWCSSVJnJw)
+### Brain-Prime game demo:
+[![asciicast](https://asciinema.org/a/dxVwb1hui3aFnKgBTqcAm0lPu.svg)](https://asciinema.org/a/dxVwb1hui3aFnKgBTqcAm0lPu)
