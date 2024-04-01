@@ -8,7 +8,7 @@ def meat():
     a = randint(1, 100)
     b = randint(1, 100)
     argument = f'{a} {b}'
-    if a > b:
+    if a >= b:
         first_num = a
         second_num = b
     elif a < b:
