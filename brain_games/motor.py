@@ -11,12 +11,16 @@ def skeleton(game=''):
         return 'huy'
     print(game.MANUAL)
     count = 0
-    while count < 3:
-        argument, right_answer = game.meat()
+    max_count = 3
+    while count < max_count:
+        argument, r_a = game.meat()
         ans = answer(argument)
-        if ans == right_answer:
-            print("Correct!")
+        if ans == r_a:
+            result = 'Correct'
+            print(result)
             count += 1
         else:
-            return print(f"'{ans}' is wrong answer ;(. Correct answer was '{right_answer}'.\nLet's try again, {name}!")
+            result = f"'{ans}' is wrong answer ;(. Correct answer was '{r_a}'"
+            print(result)
+            return print(f"Let's try again, {name}!")
     return print(f'Congratulations, {name}!')
