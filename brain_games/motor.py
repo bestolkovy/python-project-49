@@ -18,5 +18,5 @@ def skeleton(game=''):
             print("Correct!")
             count += 1
         else:
-            return print(f"'{ans}' is wrong answer ;(. Correct answer was '{right_answer}'. \n Let's try again, {name}!")
+            return print(f"'{ans}' is wrong answer ;(. Correct answer was '{right_answer}'.\nLet's try again, {name}!")
     return print(f'Congratulations, {name}!')
