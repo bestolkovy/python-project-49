@@ -5,7 +5,7 @@ MANUAL = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def meat():
-    argument = randint(1, 347)
+    argument = randint(1, 100)
     if argument % 2 == 0:
         right_answer = 'yes'
     else:
