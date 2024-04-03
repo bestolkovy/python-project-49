@@ -1,7 +1,12 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/bestolkovy/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/bestolkovy/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/75827ede731aa835b157/maintainability)](https://codeclimate.com/github/bestolkovy/python-project-49/maintainability)
-### Project instalation:
+### 5 console games. 1th level Hexlet.
+### Project instalation: 
+1. poetry install
+2. poetry build
+3. poetry publish --dry-run
+4. python3 -m pip install  dist/*.whl
 [![asciicast](https://asciinema.org/a/JXqHCP7t8QrZkESRRIWxP7ldF.svg)](https://asciinema.org/a/JXqHCP7t8QrZkESRRIWxP7ldF)
 ### Brain-Even game demo:
 [![asciicast](https://asciinema.org/a/7GBhYIiOl8mufPBba2pA32y7M.svg)](https://asciinema.org/a/7GBhYIiOl8mufPBba2pA32y7M)
