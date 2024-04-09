@@ -4,16 +4,14 @@ from random import randint
 MANUAL = "Find the greatest common divisor of given numbers."
 
 
-# Выделили проверку общего делителя в отдельную функциюл
+# upd Выделили проверку общего делителя в отдельную функциюл
 def gcd(a, b):
     if a >= b:
         first_num = a
         second_num = b
-    elif a < b:
+    else:
         first_num = b
         second_num = a
-    else:
-        return a
     while first_num != second_num:
         current_num = first_num - second_num
         if second_num > current_num:
