@@ -3,10 +3,15 @@ from random import randint
 
 MANUAL = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
+def is_prime(argument):
+    for i in range(2, int(argument ** 0.5 + 1)):
+        return argument % i == 0
+
 
 def meat():
-    num = randint(1, 100)
-    for i in range(2, int(num ** 0.5 + 1)):
-        if num % i == 0:
-            return num, 'no'
-    return num, 'yes'
+    argument = randint(1, 100)
+    if is_prime(argument):
+        right_anser = 'no'
+    else:
+        right_anser = 'yes'    
+    return argument, right_anser
