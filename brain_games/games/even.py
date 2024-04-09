@@ -3,11 +3,14 @@ from random import randint
 
 MANUAL = 'Answer "yes" if the number is even, otherwise answer "no".'
 
-
+def is_even(argument):
+    return argument % 2 == 0
+    
 def meat():
     argument = randint(1, 100)
-    if argument % 2 == 0:
-        right_answer = 'yes'
+    if is_even(argument):
+       right_answer = 'yes'
     else:
-        right_answer = 'no'
+       right_answer = 'no'
     return argument, right_answer
+print (meat())
