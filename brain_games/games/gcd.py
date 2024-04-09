@@ -21,7 +21,7 @@ def gcd(a, b):
             second_num = current_num
         else:
             first_num = current_num
-        return first_num
+    return first_num
 
 
 def meat():
