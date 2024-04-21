@@ -4,7 +4,7 @@ from random import randint
 MANUAL = "Find the greatest common divisor of given numbers."
 
 
-# upd Выделили проверку общего делителя в отдельную функциюл
+# upd Выделили проверку общего делителя в отдельную функцию
 def gcd(first_number, second_number):
     if first_number >= second_number:
         first_num = first_number
