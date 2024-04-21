@@ -10,8 +10,10 @@ def is_even(argument):
     return argument % 2 == 0
 
 
-def meat():
-    argument = randint(1, 100)
+def get_question_and_answer():
+    MIN_VALUE = 1
+    MAX_VALUE = 100
+    argument = randint(MIN_VALUE, MAX_VALUE)
     if is_even(argument):
         right_answer = 'yes'
     else:

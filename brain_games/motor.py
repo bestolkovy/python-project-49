@@ -3,16 +3,16 @@ from brain_games.cli import welcome_user
 import prompt
 
 
-def skeleton(game=None):
+def play_game(game=None):
     print('Welcome to the Brain Games!')
     name = welcome_user()
+    count = 0
+    ROUND_COUNT = 3
     if not game:
         return
     print(game.MANUAL)
-    count = 0
-    max_count = 3
-    while count < max_count:
-        argument, right_answer = game.meat()
+    while count < ROUND_COUNT:
+        argument, right_answer = game.get_question_and_answer()
         print(f'Question: {argument}')
         answer = prompt.string('Your answer: ')
         if answer == right_answer:

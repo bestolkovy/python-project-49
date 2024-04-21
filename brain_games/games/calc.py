@@ -6,9 +6,11 @@ import operator
 MANUAL = 'What is the result of the expression?'
 
 
-def meat():
-    first_num = randint(1, 100)
-    second_num = randint(1, 100)
+def get_question_and_answer():
+    MIN_VALUE = 1
+    MAX_VALUE = 50
+    first_num = randint(MIN_VALUE, MAX_VALUE)
+    second_num = randint(MIN_VALUE, MAX_VALUE)
     list_op = (('+', operator.add), ('-', operator.sub), ('*', operator.mul))
     operand = choice(list_op)
     argument = f'{first_num} {operand[0]} {second_num}'

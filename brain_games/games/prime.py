@@ -12,9 +12,11 @@ def is_prime(argument):
     return True
 
 
-def meat():
-    argument = randint(1, 100)
-    if is_prime(argument) is True:
+def get_question_and_answer():
+    MIN_VALUE = 1
+    MAX_VALUE = 100
+    argument = randint(MIN_VALUE, MAX_VALUE)
+    if is_prime(argument):
         right_answer = 'yes'
     else:
         right_answer = 'no'
